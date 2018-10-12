@@ -43,7 +43,7 @@ namespace ChooseYourOwnAdventure
             string c = "";
             while (true)
             {
-                Console.WriteLine("ESCAPE THE ZOMBIE\n");
+                Console.WriteLine("THERES A ZOMBIE RIGHT BEHIND YOU THATS TRYING TO FREAKING MURDER YOU!\n");
                 Console.WriteLine("Press Any Key to begin . . .");
                 Console.ReadLine();
                 string[] paths = { "Take ladder", "Walk straight", "turn left", "turn right", "Dark hole on floor...", "Crawl through hole in wall" };
