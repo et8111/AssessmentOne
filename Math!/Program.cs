@@ -17,6 +17,7 @@ namespace Math_
                 int num = int.Parse(Console.ReadLine());
                 for (int i = 0; i < 13; i++)
                     Console.WriteLine(num + " x " + i + " = " + num * i);
+                Console.Write("Enter y to restart: ");
                 c = Console.ReadLine();
                 if (c != "y")
                     break;
