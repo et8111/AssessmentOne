@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{81A449EA-B2BD-4250-9174-086238302493}</ProjectGuid>
+    <ProjectGuid>{EDBECEB8-E3F5-4007-9F9E-94B9AF4908D2}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Assessment1</RootNamespace>
-    <AssemblyName>Assessment1</AssemblyName>
+    <RootNamespace>I_dLIkeToBuyAVowel</RootNamespace>
+    <AssemblyName>I%27dLIkeToBuyAVowel</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
